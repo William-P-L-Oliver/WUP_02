@@ -39,7 +39,11 @@ we are explaining the numerical variable of Vitamin C by examining the categoric
 ```{r}
 boxplot(VitC~Cult,data=veggy)
 ```
-<!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+The overall Mean for Cultivation the Cabbages with Vitamin C content from C39 had a all around lower mean number average from that of the C52.  
+
+<!--Graphical results here.  Make sure to show your code. 
+Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ### Numerical Descriptive Results
 
