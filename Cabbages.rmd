@@ -47,6 +47,12 @@ Provide appropriate labels for axes, giving units if possible, and provide a goo
 
 ### Numerical Descriptive Results
 
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+this chart shows that the mean for c39 is 51.0 and the mean for c52 is 64.5 the median for c39 is also shown to be smaller than c52.  
+
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
