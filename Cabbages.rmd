@@ -56,6 +56,11 @@ this chart shows that the mean for c39 is 51.0 and the mean for c52 is 64.5 the 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
 ## Inferential Results
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+
+The T-test is showing that the p-value is about 0.00000003405. since this value debunks and disproves the primary hypothesis we can reject the null hypothesis since the probability is very low.  
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
@@ -63,3 +68,5 @@ this chart shows that the mean for c39 is 51.0 and the mean for c52 is 64.5 the 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+So in conclusion the statistics from the charts help us with the primary claim: which is better in terms of Vitamin C content c39 or c52. well after putting in the numbers and drawing all the data from the charts be it form the Box or the t-test we have come to the conclusion that c52 has the most Vitamin C content between itself and c39.  
